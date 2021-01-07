@@ -1,0 +1,39 @@
+name: flutter_sliders_testbed
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_charts:
+    git:
+      url: https://buildautomation:Coolcomp299@gitlab.syncfusion.com/essential-studio/flutter-charts
+      path: flutter_charts/syncfusion_flutter_charts
+      branch: development
+      ref: development
+      
+  intl: "any"
+
+  syncfusion_flutter_sliders:
+    path: ../syncfusion_flutter_sliders/
+    
+  syncfusion_flutter_core:
+    git:
+      url: https://buildautomation:Coolcomp299@gitlab.syncfusion.com/essential-studio/flutter-core
+      path: syncfusion_flutter_core
+      branch: development
+      ref: development
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
